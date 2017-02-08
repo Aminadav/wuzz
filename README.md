@@ -50,6 +50,12 @@ Keybinding                              | Description
 * Autocompletion
 * Tests
 
+### Adding Headers
+You should use the format
+````
+header-name: header value`
+```
+(Do not try `headername=header-value` or to omit the space)
 
 ## Bugs
 
