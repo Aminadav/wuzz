@@ -13,8 +13,13 @@ browser's network inspector with the "copy as cURL" feature.
 
 ```
 $ go get github.com/asciimoo/wuzz
+$ go build github.com/asciimoo/wuzz
 $ "$GOPATH/bin/wuzz" --help
+
+$ "$GOPATH/bin/wuzz" https://www.google.com -H "user-agent:Google Chrome"
 ```
+
+
 
 ### Commands
 
